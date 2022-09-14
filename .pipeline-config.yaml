@@ -20,7 +20,7 @@ test:
     #!/usr/bin/env bash
 
     cd ../"$(load_repo app-repo path)"
-    npm ci
+    #npm ci
 
     # save exit code for old evidence collection
     exit_code=0
